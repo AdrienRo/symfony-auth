@@ -22,6 +22,6 @@ In dev mode, also intall :
   
 #### 2. Create User entity and fixture
 
-Create a new User model is very simple. Just run command ``` php bin/console make:user ```. Then, add ** uid ** property to your new entity, manualy or using the ``` php bin/console make:entity ``` command. Uid property allows us to retreive user by an other way to the common email/password.
+Create a new User model is very simple. Just run command ``` php bin/console make:user ```. Then, add **uid** property to your new entity, manualy or using the ``` php bin/console make:entity ``` command. Uid property allows us to retreive user by an other way to the common email/password.
 
 To set uid, i create a doctrine event subscriber.
