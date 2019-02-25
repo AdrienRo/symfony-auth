@@ -19,9 +19,9 @@ In dev mode, also intall :
   - maker
   - orm-fixtures
 
-
   
 #### 2. Create User entity and fixture
 
-Run ```shell php bin/console make:user``` to create a user model.
-Add user fixtures
+Create a new User model is very simple. Just run command ```shell php bin/console make:user```. Then, add ** uid ** property to your new entity, manualy or using the ```shell php bin/console make:entity``` command. Uid property allows us to retreive user by an other way to the common email/password.
+
+To set uid, i create a doctrine event subscriber.
