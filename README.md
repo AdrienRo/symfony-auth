@@ -2,6 +2,12 @@
 
 ## How to use ?
 
-1. Initialize project. In my case, i split my app in two repository :
-  - api for backend
-  - www for front
+### Backend
+
+1. Initialize project
+  - Dependencies : orm, validator, annotations, security
+  - Dev dependencies : debug, maker, orm-fixtures
+  
+2. Create User entity
+
+Run ```shell php bin/console make:user``` to create a user model
