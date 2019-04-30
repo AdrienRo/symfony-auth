@@ -1,4 +1,4 @@
-# Symfony Authentification
+# Symfony JWT Authentification
 
 ## How to use ?
 
